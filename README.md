@@ -14,3 +14,5 @@ Data: FashionMNIST
 4. Sau đó sử dụng 2 fully connected layer với mức dropout = 50%
 
 5. Train model bằng kỹ thuật k-fold, chia tập train thành k tập nhỉ, mỗi model của tập thứ k được xây dựng trên k-1 tập còn lại. Chọn k = 10.
+
+6. Mô hình xây dựng bởi mạng CNN trên vẫn chưa phải là tối ưu nhất do vẫn chưa giải quyết được việc mất mát dữ liệu bởi hàm flatten().
